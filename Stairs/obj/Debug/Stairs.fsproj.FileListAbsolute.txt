@@ -1,0 +1,16 @@
+c:\users\sam\documents\visual studio 2015\Projects\F#\Stairs\Stairs\bin\Debug\Stairs.exe.config
+c:\users\sam\documents\visual studio 2015\Projects\F#\Stairs\Stairs\bin\Debug\Stairs.XML
+c:\users\sam\documents\visual studio 2015\Projects\F#\Stairs\Stairs\bin\Debug\Stairs.exe
+c:\users\sam\documents\visual studio 2015\Projects\F#\Stairs\Stairs\bin\Debug\Stairs.pdb
+c:\users\sam\documents\visual studio 2015\Projects\F#\Stairs\Stairs\bin\Debug\FSharp.Core.dll
+c:\users\sam\documents\visual studio 2015\Projects\F#\Stairs\Stairs\bin\Debug\FSharp.Core.xml
+c:\users\sam\documents\visual studio 2015\Projects\F#\Stairs\Stairs\obj\Debug\Stairs.exe
+c:\users\sam\documents\visual studio 2015\Projects\F#\Stairs\Stairs\obj\Debug\Stairs.pdb
+C:\Users\Sam Rudge\Documents\Projects\F#\Stairs\Stairs\bin\Debug\Stairs.exe.config
+C:\Users\Sam Rudge\Documents\Projects\F#\Stairs\Stairs\bin\Debug\Stairs.XML
+C:\Users\Sam Rudge\Documents\Projects\F#\Stairs\Stairs\bin\Debug\Stairs.exe
+C:\Users\Sam Rudge\Documents\Projects\F#\Stairs\Stairs\bin\Debug\Stairs.pdb
+C:\Users\Sam Rudge\Documents\Projects\F#\Stairs\Stairs\bin\Debug\FSharp.Core.dll
+C:\Users\Sam Rudge\Documents\Projects\F#\Stairs\Stairs\bin\Debug\FSharp.Core.xml
+C:\Users\Sam Rudge\Documents\Projects\F#\Stairs\Stairs\obj\Debug\Stairs.exe
+C:\Users\Sam Rudge\Documents\Projects\F#\Stairs\Stairs\obj\Debug\Stairs.pdb

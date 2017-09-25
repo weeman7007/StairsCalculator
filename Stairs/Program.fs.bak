@@ -1,0 +1,61 @@
+﻿// Application to calculate stairs
+
+open System
+
+let minStepHeight = 165 // 2rise + going...
+let maxStepHeight =  220
+let maxStairAngle = 42
+//let minStairAngle =
+let minStepGoing = 220
+let maxStepGoing = 300
+
+//Function that checks to see if the number is whole, and returns the number of decimal places
+let getDecimalPlaces input = 
+    let strInput = input.ToString()
+    let index = strInput.IndexOf(".")
+
+    if index = -1 then
+        0
+    else
+        strInput.Remove(0, index + 1).Length
+
+//Function to get the fewest steps that could possibly be allowed
+let getMinSteps input = 
+    let partialSteps = float input / float maxStepHeight
+    int (ceil partialSteps)
+
+//Function to get the most steps that are allowed
+let getMaxSteps input =
+    let partialSteps = float input / float minStepHeight
+    int (floor partialSteps) 
+
+//Gets the user input: TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO
+printfn "Enter the height difference between floors in mm:"
+
+let heightDiff = 2700
+
+let minSteps = getMinSteps heightDiff
+let maxSteps = getMaxSteps heightDiff
+
+printfn "Minsteps: %i MaxSteps: %i " minSteps maxSteps
+
+let mutable bestDp = 100
+let mutable bestHeight = 0.0
+let mutable steps = 0
+
+//Calculates the best possible scenario for steps - ie. not needing too many, and each step being the wholest mm it possibly can.
+for i = minSteps to maxSteps do
+    let stepHeight = float heightDiff / float i
+    let dp = getDecimalPlaces stepHeight
+
+    printfn "Step height: %f, number of steps: %i, step height string: %s" stepHeight i (stepHeight.ToString())
+    
+    if dp < bestDp then
+        bestDp <- dp
+        bestHeight <- stepHeight
+        steps <- i
+
+printfn "Step height: %s, number of steps (stair rises including to landing): %i" (bestHeight.ToString()) steps
+
+printfn "Press any key to exit.."
+Console.ReadKey() |> ignore
